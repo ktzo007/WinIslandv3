@@ -1,0 +1,16 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Izin minimal untuk jendela island, dock, dan pengaturan",
+  "windows": [
+    "main",
+    "dock",
+    "side",
+    "settings"
+  ],
+  "permissions": [
+    "core:default",
+    "drag:default",
+    "dialog:default"
+  ]
+}
